@@ -1,0 +1,426 @@
+/* ================================================= */
+/* ================== TABLET ======================= */
+/* ================================================= */
+
+@media (max-width: 1024px) {
+
+    /* ================= NAVBAR ================= */
+
+    .header {
+        padding: 20px 5%;
+    }
+
+    .navbar {
+        gap: 22px;
+    }
+
+
+    /* ================= HERO ================= */
+
+    .hero h1 {
+        font-size: 70px;
+    }
+
+
+    /* ================= ABOUT ================= */
+
+    .about {
+        padding: 100px 6%;
+    }
+
+    .about-container {
+        gap: 50px;
+    }
+
+    .about-image img {
+        height: 500px;
+    }
+
+
+    /* ================= SIGNATURE ================= */
+
+    .signature {
+        padding: 100px 6%;
+    }
+
+    .signature-grid {
+        gap: 15px;
+    }
+
+    .signature-card {
+        height: 480px;
+    }
+
+
+    /* ================= PORTFOLIO ================= */
+
+    .portfolio {
+        padding: 100px 6%;
+    }
+
+
+    /* ================= SERVICES ================= */
+
+    .services {
+        padding: 100px 6%;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* ================= WHY YOGI ================= */
+
+    .why-yogi {
+        padding: 110px 6%;
+    }
+
+    .why-yogi-container {
+        gap: 60px;
+    }
+
+}
+
+
+/* ================================================= */
+/* ==================== MOBILE ===================== */
+/* ================================================= */
+
+@media (max-width: 768px) {
+
+    /* ================= NAVBAR ================= */
+
+    .header {
+        padding: 16px 6%;
+    }
+
+    .logo img {
+        height: 48px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .btn-nav {
+        padding: 10px 18px;
+        font-size: 13px;
+    }
+
+
+    /* ================= HERO ================= */
+
+    .hero {
+        min-height: 100vh;
+    }
+
+    .hero-content {
+        padding: 20px 6%;
+    }
+
+    .since {
+        font-size: 11px;
+        letter-spacing: 3px;
+    }
+
+    .hero h1 {
+        font-size: 52px;
+        line-height: 1;
+        letter-spacing: 2px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+        line-height: 1.7;
+        margin-bottom: 30px;
+    }
+
+    .hero-btn {
+        gap: 12px;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        padding: 13px 25px;
+        font-size: 13px;
+    }
+
+
+    /* ================= ABOUT ================= */
+
+    .about {
+        padding: 90px 6%;
+    }
+
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .about-image img {
+        height: 450px;
+    }
+
+    .about-content {
+        max-width: 100%;
+    }
+
+    .about-content h2,
+    .signature-heading h2 {
+        font-size: 42px;
+    }
+
+
+    /* ================= SIGNATURE ================= */
+
+    .signature {
+        padding: 90px 6%;
+    }
+
+    .signature-heading {
+        margin-bottom: 45px;
+    }
+
+    .signature-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .signature-card {
+        height: 500px;
+    }
+
+
+    /* ================= PORTFOLIO ================= */
+
+    .portfolio {
+        padding: 90px 6%;
+    }
+
+    .section-header {
+        margin-bottom: 45px;
+    }
+
+    .section-header h2 {
+        font-size: 42px;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .portfolio-item {
+        height: 450px;
+    }
+
+
+    /* ================= SERVICES ================= */
+
+    .services {
+        padding: 90px 6%;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-card {
+        min-height: auto;
+        padding: 40px 30px;
+    }
+
+
+    /* ================= WHY YOGI ================= */
+
+    .why-yogi {
+        padding: 90px 6%;
+    }
+
+    .why-yogi-container {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .why-yogi-content h2 {
+        font-size: 46px;
+    }
+
+    .feature-item {
+        grid-template-columns: 40px 1fr;
+        gap: 15px;
+    }
+
+}
+
+/* ================= OUR PROCESS ================= */
+
+@media (max-width: 1024px) {
+
+    .process-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px 0;
+    }
+
+    .process-item:nth-child(3) {
+        border-left: none;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    .process {
+        padding: 90px 6%;
+    }
+
+    .process-header {
+        margin-bottom: 55px;
+    }
+
+    .process-container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .process-item,
+    .process-item:nth-child(3) {
+        border-left: none;
+        border-top: 1px solid rgba(62,48,37,.2);
+        padding: 30px 0;
+    }
+
+    .process-item:first-child {
+        border-top: none;
+    }
+
+    .process-number {
+        font-size: 36px;
+    }
+
+}
+
+/* ================= CONTACT ================= */
+
+@media (max-width: 1024px) {
+
+    .contact {
+        padding: 110px 6%;
+    }
+
+    .contact-container {
+        gap: 60px;
+    }
+
+    .contact-content h2 {
+        font-size: 54px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    .contact {
+        padding: 90px 6%;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+
+        gap: 60px;
+    }
+
+    .contact-content h2 {
+        font-size: 46px;
+    }
+
+    .contact-description {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .contact-map {
+        margin-top: 50px;
+    }
+
+    .contact-map iframe {
+        height: 350px;
+    }
+
+}
+
+/* ================= MOBILE NAVBAR ================= */
+
+@media (max-width: 768px){
+
+    .header{
+        padding: 18px 6%;
+    }
+
+    .logo img{
+        height: 50px;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .btn-nav{
+        display: none;
+    }
+
+    .menu-toggle{
+        display: block;
+    }
+
+}
+
+/* ================= FOOTER ================= */
+
+@media (max-width: 1024px){
+
+    .footer-container{
+        grid-template-columns: 1.5fr 1fr 1fr;
+        gap: 50px;
+    }
+
+    .footer-cta{
+        grid-column: 1 / -1;
+    }
+
+}
+
+
+@media (max-width: 768px){
+
+    .footer{
+        padding: 70px 6% 25px;
+    }
+
+    .footer-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 45px 30px;
+        padding-bottom: 50px;
+    }
+
+    .footer-brand{
+        grid-column: 1 / -1;
+    }
+
+    .footer-cta{
+        grid-column: 1 / -1;
+    }
+
+    .footer-bottom{
+        flex-direction: column;
+        gap: 8px;
+    }
+
+}
+
