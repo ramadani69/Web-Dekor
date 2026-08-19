@@ -417,3 +417,58 @@
     gap: 8px;
   }
 }
+
+/* ================================================= */
+/* ============== RESPONSIVE TESTIMONIALS =========== */
+/* ================================================= */
+
+@media (max-width: 1024px) {
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonials {
+    padding: 90px 6%;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .testimonial-card {
+    padding: 35px 25px;
+  }
+}
+
+/* ================================================= */
+/* ================== RESPONSIVE FAQ =============== */
+/* ================================================= */
+
+@media (max-width: 1024px) {
+  .faq-section {
+    padding: 110px 6%;
+  }
+}
+
+@media (max-width: 768px) {
+  .faq-section {
+    padding: 90px 6%;
+  }
+
+  .faq-list {
+    margin-top: 35px;
+    gap: 15px;
+  }
+
+  .faq-item {
+    padding: 22px 20px;
+  }
+
+  .faq-item h3 {
+    font-size: 20px;
+  }
+}
