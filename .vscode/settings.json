@@ -1,0 +1,7 @@
+{
+  "livePreview.defaultPreviewPath": "/index.html",
+  "dart.flutterHotReloadOnSave": "all",
+  "dart.hotReloadOnSave": "all",
+  "files.autoSaveDelay": 100,
+  "files.autoSave": "afterDelay"
+}
